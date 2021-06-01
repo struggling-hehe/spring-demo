@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-cloud-consul-producer
+  cloud:
+    #consul服务的ip和端口号
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      # 服务名称
+      discovery:
+        service-name: service-producer
+        # 心跳检测
+        heartbeat:
+          enabled: true
+server:
+  port: 8530
+
