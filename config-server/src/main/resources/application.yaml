@@ -1,0 +1,12 @@
+server:
+  port: 8550
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: h
+          username: clear
+          password: 123456

@@ -1,0 +1,13 @@
+server:
+  port: 8535
+  cloud:
+    gateway:
+      routes:
+        - id: path_route
+          uri: http://localhost:8000
+          order: 0
+          predicates:
+            - Path=/foo/**
+          filters:
+            - StripPrefix=1
+
