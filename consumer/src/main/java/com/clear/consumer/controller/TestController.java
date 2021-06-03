@@ -25,7 +25,7 @@ public class TestController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "";
+        return testFeign.test();
     }
 
 

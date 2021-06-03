@@ -22,7 +22,8 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "helle consul";
+
+        return servicePort;
     }
 
     /**

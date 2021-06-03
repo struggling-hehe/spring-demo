@@ -7,6 +7,6 @@ spring:
     config:
       server:
         git:
-          uri: h
+          uri: github.com
           username: clear
           password: 123456

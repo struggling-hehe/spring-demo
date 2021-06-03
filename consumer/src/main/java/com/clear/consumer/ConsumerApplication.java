@@ -19,7 +19,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * 启动进行调用服务组件
  * */
 @EnableFeignClients
-
 @EnableCircuitBreaker
 public class ConsumerApplication {
 

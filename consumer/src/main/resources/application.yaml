@@ -1,0 +1,15 @@
+server:
+  port: 8540
+
+  #设置不需要注册到 consul 中
+spring:
+  application:
+    name: consumer-server01
+  cloud:
+    consul:
+      discovery:
+        register: false
+      host: 127.0.0.1
+      port: 8500
+
+

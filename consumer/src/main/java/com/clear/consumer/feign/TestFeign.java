@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 public interface TestFeign {
 
     @GetMapping("/hello")
-    public String test();
+    String test();
 
 
     /**
